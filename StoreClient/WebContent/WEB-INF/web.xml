@@ -14,7 +14,7 @@
   <servlet-mapping>
     <servlet-name>store_service</servlet-name>
     <url-pattern>/rest/*</url-pattern>
-    </servlet-mapping>
+   </servlet-mapping>
     
     <welcome-file-list>
     <welcome-file>login.html</welcome-file>
