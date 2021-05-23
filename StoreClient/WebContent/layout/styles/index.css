@@ -1,0 +1,36 @@
+.header{
+    background-color: rgba(0, 0, 0, 0.658)
+}
+.header-logo{
+    flex-direction: row;
+    flex: auto;
+}
+@media screen and (max-width: 720px){
+    .header-description{
+        display: none;
+    }
+}
+a{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+.card-img-top{
+    overflow: hidden;
+    transition: transform 0.5s ease-in;
+}
+.card-img-top:hover{
+    transform: scale(1.2)
+}
+
+.category{
+    overflow: hidden;
+}
+.category img{
+    cursor: pointer;
+    transition: transform 0.5s ease-in;
+}
+.category img:hover{
+    transform: translateY(-10px);
+}
